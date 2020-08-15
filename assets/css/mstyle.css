@@ -3,6 +3,7 @@
 }
 .mainColumnOne{
   float: left;
+  background-color: black;
   width:30%;
   padding: 20px;
   height: 100%;
