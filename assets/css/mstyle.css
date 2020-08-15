@@ -5,7 +5,9 @@
   float: left;
   background-color: #000000;
   width:30%;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
   height: 100%;
 }
 
