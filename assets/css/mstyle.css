@@ -17,4 +17,22 @@
   padding: 20px;
   height: 100vh;
 }
+.college{
+ float: left;
+  width: 70%
+}
 
+.college_grad{
+  float: right;
+  width: 30%;
+}
+
+.job{
+  float: left;
+  width: 70%;
+}
+
+.job_date{
+  float: right;
+  width: 30%;
+}
