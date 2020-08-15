@@ -18,6 +18,11 @@
   height: 100vh;
 }
 
-.eduRow{
- 
+.college{
+ float: left;
+  width: 80%;
+}
+.college_grad{
+ float: right;
+  width: 20%;
 }
