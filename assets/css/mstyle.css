@@ -2,9 +2,6 @@
   box-sizing: border-box;
 }
 
-body,html{
-  height: 100%;
-}
 .mainColumnOne{
   float: left;
   width:30%;
