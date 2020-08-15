@@ -6,3 +6,9 @@
   height: 100%;
 }
 
+.mainColumnTwo{
+ float: right;
+  width: 70%;
+  padding: 20px;
+  height: 100%
+}
