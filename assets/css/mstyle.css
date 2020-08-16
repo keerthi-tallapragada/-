@@ -27,6 +27,8 @@ body,html{
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 5px;
+  vertical-align:top;
+  height: 100%;
 }
 
 .mainColumnTwo{
@@ -36,10 +38,13 @@ body,html{
   padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 20px;
+  vertical-align:top;
+  height: 100%;
 }
 
 .mainRow{
 display: table;
+  vertical-align:top;
 }
 
 .college{
