@@ -38,6 +38,11 @@ body,html{
   padding-left: 20px;
   margin: 0px;
 }
+
+.mainRow::after{
+ clear: both;
+}
+
 .college{
  float: left;
   width: 70%
