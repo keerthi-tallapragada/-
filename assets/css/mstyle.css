@@ -3,7 +3,7 @@
 }
 
 body{
- margin: 0;
+ margin: 0px;
  height : 100vh;
 }
 
@@ -47,4 +47,11 @@ body{
 h3,h4{
 margin: 0 !important;
 padding: 0 !important;
+font-family: Helvetica, Arial, Tahoma, Serif;
+}
+ul{
+ font-family: Helvetica, Arial, Tahoma, Serif;
+}
+h2{
+font-family: Arial Black, Arial, Tahoma, Serif;
 }
