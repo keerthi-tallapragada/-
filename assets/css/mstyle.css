@@ -7,7 +7,7 @@ body{
  height : 100vh;
 }
 
-.phColOne,.emColOne,.linkColOne,.gitColOne{
+/* .phColOne,.emColOne,.linkColOne,.gitColOne{
   float: left;
   width: 20%;
   height: 50px;
@@ -19,7 +19,7 @@ body{
 
 .phRow, .emRow,.linkRow,.gitRow::after{
   clear: both;
-}
+} */
 
 .mainColumnOne{
   float: left;
