@@ -22,7 +22,6 @@ body,html{
 } */
 
 .mainColumnOne{
-  float: left;
   width:30%;
   display: table-cell;
   padding-left: 20px;
@@ -31,7 +30,6 @@ body,html{
 }
 
 .mainColumnTwo{
- float: right;
   display: table-cell;
   width: 70%;
   padding-top: 5px;
