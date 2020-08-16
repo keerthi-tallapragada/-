@@ -12,11 +12,12 @@ body{
   width: 20%;
   height: 50px;
 }
-.phColTwo,.emColTwo, .linkColTwo,gitColTwo{
+.phColTwo,.emColTwo, .linkColTwo,.gitColTwo{
   float: right;
+  width: 80%;
 }
 
-.phRow, .emRow,linkRow,gitRow::after{
+.phRow, .emRow,.linkRow,.gitRow::after{
   clear: both;
 }
 
