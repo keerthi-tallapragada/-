@@ -7,16 +7,16 @@ body{
  height : 100vh;
 }
 
-.contactColOne{
+.phColOne,.emColOne,.linkColOne,.gitColOne{
   float: left;
   width: 20%;
   height: 50px;
 }
-.contactColTwo{
+.phColTwo,.emColTwo, .linkColTwo,gitColTwo{
   float: right;
 }
 
-.contactRow::after{
+.phRow, .emRow,linkRow,gitRow::after{
   clear: both;
 }
 
