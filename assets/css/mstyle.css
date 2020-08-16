@@ -76,7 +76,7 @@ font-family: Helvetica, Arial, Tahoma, Serif;
 ul{
  font-family: Helvetica, Arial, Tahoma, Serif;
   padding:0px;
-  margin-left: 4px;
+  list-style-position: inside;
 }
 h2{
 font-family: Arial Black, Arial, Tahoma, Serif;
