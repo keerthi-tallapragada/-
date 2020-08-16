@@ -7,6 +7,19 @@ body{
  height : 100vh;
 }
 
+.contactColOne{
+  float: left;
+  width: 20%;
+  height: 50px;
+}
+.contactColTwo{
+  float: right;
+}
+
+.contactRow::after{
+  clear: both;
+}
+
 .mainColumnOne{
   float: left;
   width:30%;
