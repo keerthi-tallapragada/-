@@ -16,35 +16,29 @@ body,html{
   float: right;
   width: 80%;
 }
-
 .phRow, .emRow,.linkRow,.gitRow::after{
   clear: both;
 } */
 
 .mainColumnOne{
+  float: left;
   width:30%;
-  display: table-cell;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 5px;
-  vertical-align:top;
-  height: 100%;
 }
 
 .mainColumnTwo{
-  display: table-cell;
+ float: right;
   width: 70%;
   padding-top: 5px;
   padding-bottom: 20px;
   padding-right: 20px;
   padding-left: 20px;
-  vertical-align:top;
-  height: 100%;
 }
 
-.mainRow{
-display: table;
-  vertical-align:top;
+.mainRow::after{
+ clear: both;
 }
 
 .college{
