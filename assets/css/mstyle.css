@@ -20,7 +20,7 @@ height: 100%;
 
 .mainColumnOne{
   float: left;
-  width:30%;
+  width:40%;
   min-height: 100%;
   padding-left: 20px;
   padding-right: 20px;
@@ -29,7 +29,7 @@ height: 100%;
 
 .mainColumnTwo{
  float: right;
-  width: 70%;
+  width: 60%;
   min-height: 100%;
   padding-top: 5px;
   padding-bottom: 20px;
