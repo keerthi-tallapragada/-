@@ -78,6 +78,7 @@ ul{
   padding:0px;
   display: inline-block;
   float: left;
+  list-style: disc;
 }
 li{
 display: inline-block;
