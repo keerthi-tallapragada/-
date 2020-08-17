@@ -18,6 +18,96 @@ height: 100%;
   clear: both;
 } */
 
+@media only screen and (max-width: 600px) {
+  
+.mainColumnOne{
+  float: left;
+  min-width:30%;
+  min-height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+  .mainColumnTwo{
+ float: right;
+  min-width: 70%;
+  min-height: 100%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+.mainColumnOne{
+  float: left;
+  min-width:30%;
+  min-height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+  .mainColumnTwo{
+ float: right;
+  min-width: 70%;
+  min-height: 100%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+.mainColumnOne{
+  float: left;
+  min-width:30%;
+  min-height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+  .mainColumnTwo{
+ float: right;
+  min-width: 70%;
+  min-height: 100%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   
+.mainColumnOne{
+  float: left;
+  min-width:30%;
+  min-height: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+  .mainColumnTwo{
+ float: right;
+  min-width: 70%;
+  min-height: 100%;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
 .mainColumnOne{
   float: left;
   width:30%;
@@ -26,8 +116,7 @@ height: 100%;
   padding-right: 20px;
   padding-top: 5px;
 }
-
-.mainColumnTwo{
+  .mainColumnTwo{
  float: right;
   width: 70%;
   min-height: 100%;
@@ -36,28 +125,6 @@ height: 100%;
   padding-right: 20px;
   padding-left: 20px;
 }
-@media only screen and (max-width: 767px) {}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .mainColumnOne{
-   min-width: 30%;
-    float: left;
-  }
-  .mainColumnTwo{
-   min-width: 70%;
-    float: right;
-  }
-}
-
-@media only screen and (max-width: 479px) {
-   .mainColumnOne{
-   min-width: 30%;
-    float: left;
-  }
-  .mainColumnTwo{
-   min-width: 70%;
-    float: right;
-  }
 }
 
 .mainRow::after{
